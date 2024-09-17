@@ -1,1 +1,33 @@
-env
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+*.sqlite3
+*.log
+
+# Django specific
+*.db
+*.migrations/
+media/
+staticfiles/
+.env
+.django_secret_key
+
+# Virtual Environment
+env/
+venv/
+
+# IDE specific
+*.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
